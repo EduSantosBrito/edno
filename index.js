@@ -2,7 +2,7 @@ import { readdirSync, readFileSync } from 'fs';
 import http from 'http';
 import httpProxy from 'http-proxy';
 
-const ip = '192.168.10.84';
+const ip = 'localhost';
 const port = 5000;
 const rootFolder = './applications';
 
